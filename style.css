@@ -1,0 +1,36 @@
+.nav-link{
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(219, 217, 217);
+    position: absolute;
+    top: 47px;
+    left: 0;
+    transition: 0.3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.nav-link:hover{
+    color: rgb(22, 29, 225);
+
+}
+ .carousel-item img{
+    min-height: 300px;
+    
+} 
+
+.inventory .card{
+    /* transition: 0.5s; */
+    transition: 0.3s ease-out;
+    box-shadow: 5px 5px 15px rgb(211, 211, 211);
+}
+.inventory .card:hover{
+    transform: scale(1.03);
+    
+
+}

@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dronzoo web</title>
+    <!-- cdn link from bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- custom css file  -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/logo/dRON.png" type="image/x-icon">
+        <!-- font awesome link  -->
+        <script src="https://kit.fontawesome.com/9b374be581.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- navbar  -->
+    <section>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+            <div class="container-sm">
+               <img class="" src="images/logo/dRON.png" alt="logo" style="width: 20%;" >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa-solid fa-sliders"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto gap-4">
+
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#">Inventory</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#">Blogs</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="d-flex gap-3 align-items-center">
+                        <a class="nav-link fs-5" href="#">Login</a>
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- carousel  -->
+ <section class="container-sm">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="images/cover images/cover1.jpg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-block">
+              <h1 class="display-5 fw-semibold">Mavic 2 series</h1>
+              <p>As a pilot, I can tell you drones may be a lot of things; airplanes they are not.</p>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="images/cover images/cover2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block">
+              <h1 class="display-5 fw-semibold">Dji Mavic 3</h1>
+              <p>As a pilot, I can tell you drones may be a lot of things; airplanes they are not.</p>
+              
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="images/cover images/cover3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block">
+              <h1 class="display-5 fw-semibold">The next Zen</h1>
+              <p>As a pilot, I can tell you drones may be a lot of things; airplanes they are not.</p>
+              
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
+ </section>
+ <!-- inventory items  -->
+
+ <section class="container inventory">
+    <h2 class="display-6 fw-semibold my-lg-5 my-md-4 my-2 text-center">Inventory <span class="text-secondary">Items</span></h2>
+    <div class="row gy-lg-4 gy-md-3 gy-2">
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card bg-secondary bg-opacity-10">
+                <img src="images/products/product1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="title-stock d-flex justify-content-lg-between align-items-baseline flex-lg-row flex-md-column-reverse">
+                    <div class="card-title d-flex align-items-baseline gap-3">
+                        <h4 class="card-title">Phantom 4 pro</h4><p class="rounded-1 border d-inline bg-secondary bg-opacity-25"> dji </p>
+                      </div>
+                      <div class="stock"><p class="bg-secondary bg-opacity-25 rounded-5 d-inline">Stock:3</p></div>
+                  </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, cupiditate! Architecto vel eos dolore natus aliquam illum provident, voluptatum unde.</p>
+                  
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center border-0 bg-transparent">
+                    <div><button class="btn btn-secondary fs-5"><i class="fa-solid fa-cart-shopping"></i>Buy Now</button></div>
+                  <div><h1 class="fw-semibold">$999</h1></div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card bg-secondary bg-opacity-10">
+                <img src="images/products/product2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="title-stock d-flex justify-content-lg-between align-items-baseline flex-lg-row flex-md-column-reverse">
+                        <div class="card-title d-flex align-items-baseline gap-3">
+                            <h4 class="card-title">Dji mini 2</h4><p class="rounded-1 border d-inline bg-secondary bg-opacity-25"> dji </p>
+                          </div>
+                          <div class="stock"><p class="bg-secondary bg-opacity-25 rounded-5 d-inline">Stock:3</p></div>
+                      </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis nemo natus exercitationem voluptate aut dolore illum mollitia totam veritatis quo!.</p>
+                  
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center border-0 bg-transparent">
+                    <div><button class="btn btn-secondary fs-5"><i class="fa-solid fa-cart-shopping"></i>Buy Now</button></div>
+                  <div><h1 class="fw-semibold">$799</h1></div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card bg-secondary bg-opacity-10">
+                <img src="images/products/product3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="title-stock d-flex justify-content-lg-between align-items-baseline flex-lg-row flex-md-column-reverse">
+                        <div class="card-title d-flex align-items-baseline gap-3">
+                            <h4 class="card-title">Dji FPV combo</h4><p class="rounded-1 border d-inline bg-secondary bg-opacity-25"> dji </p>
+                          </div>
+                          <div class="stock"><p class="bg-secondary bg-opacity-25 rounded-5 d-inline">Stock:3</p></div>
+                      </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis eos tempore. Modi ducimus eos tempora omnis maxime. Temporibus, exercitationem.</p>
+                 
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center border-0 bg-transparent">
+                    <div><button class="btn btn-secondary fs-5"><i class="fa-solid fa-cart-shopping"></i>Buy Now</button></div>
+                  <div><h1 class="fw-semibold">$1199</h1></div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card bg-secondary bg-opacity-10">
+                <img src="images/products/product4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="title-stock d-flex justify-content-lg-between align-items-baseline flex-lg-row flex-md-column-reverse">
+                        <div class="card-title d-flex align-items-baseline gap-3">
+                            <h4 class="card-title">Phantom 4 pro</h4><p class="rounded-1 border d-inline bg-secondary bg-opacity-25"> dji </p>
+                          </div>
+                          <div class="stock"><p class="bg-secondary bg-opacity-25 rounded-5 d-inline">Stock:3</p></div>
+                      </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis eos tempore. Modi ducimus eos tempora omnis maxime. Temporibus, exercitationem.</p>
+                 
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center border-0 bg-transparent">
+                    <div><button class="btn btn-secondary fs-5"><i class="fa-solid fa-cart-shopping"></i>Buy Now</button></div>
+                  <div><h1 class="fw-semibold">$899</h1></div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card bg-secondary bg-opacity-10">
+                <img src="images/products/product5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="title-stock d-flex justify-content-lg-between align-items-baseline flex-lg-row flex-md-column-reverse">
+                        <div class="card-title d-flex align-items-baseline gap-3">
+                            <h4 class="card-title">Matric 300 Rtk</h4><p class="rounded-1 border d-inline bg-secondary bg-opacity-25"> dji </p>
+                          </div>
+                          <div class="stock"><p class="bg-secondary bg-opacity-25 rounded-5 d-inline">Stock:3</p></div>
+                      </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis eos tempore. Modi ducimus eos tempora omnis maxime. Temporibus, exercitationem.</p>
+                  
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center border-0 bg-transparent">
+                    <div><button class="btn btn-secondary fs-5"><i class="fa-solid fa-cart-shopping"></i>Buy Now</button></div>
+                  <div><h1 class="fw-semibold">$1399</h1></div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card bg-secondary bg-opacity-10">
+                <img src="images/products/product6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="title-stock d-flex justify-content-lg-between align-items-baseline flex-lg-row flex-md-column-reverse">
+                        <div class="card-title d-flex align-items-baseline gap-3">
+                            <h4 class="card-title">Mavic Air 2</h4><p class="rounded-1 border d-inline bg-secondary bg-opacity-25"> dji </p>
+                          </div>
+                          <div class="stock"><p class="bg-secondary bg-opacity-25 rounded-5 d-inline">Stock:3</p></div>
+                      </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis eos tempore. Modi ducimus eos tempora omnis maxime. Temporibus, exercitationem.</p>
+                 
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center border-0 bg-transparent">
+                    <div><button class="btn btn-secondary fs-5"><i class="fa-solid fa-cart-shopping"></i>Buy Now</button></div>
+                  <div><h1 class="fw-semibold">$999</h1></div>
+                </div>
+              </div>
+        </div>
+    </div>
+ </section>
+ </header>
+    <!-- script - -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
