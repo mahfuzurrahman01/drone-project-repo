@@ -42,9 +42,7 @@
     border-bottom: 2px solid rgb(42, 103, 233);
     box-shadow: 3px 7px 15px rgb(205, 205, 205);
 }
-span{
-    color: rgb(73, 20, 20);
-}
+
 input{
     outline: none;
 }
@@ -53,10 +51,14 @@ input{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
 }
 #form:hover{
     box-shadow: 3px 3px 20px rgb(139, 139, 139);
 }
 #copyright{
     margin-bottom: 0;
+}
+.login{
+
 }
