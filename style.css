@@ -45,3 +45,18 @@
 span{
     color: rgb(73, 20, 20);
 }
+input{
+    outline: none;
+}
+#comment{
+    background-image: url(images/bottom\ image/buttom1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#form:hover{
+    box-shadow: 3px 3px 20px rgb(139, 139, 139);
+}
+#copyright{
+    margin-bottom: 0;
+}
