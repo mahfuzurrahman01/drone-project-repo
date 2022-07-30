@@ -25,12 +25,23 @@
 } 
 
 .inventory .card{
-    /* transition: 0.5s; */
-    transition: 0.3s ease-out;
     box-shadow: 5px 5px 15px rgb(211, 211, 211);
 }
-.inventory .card:hover{
-    transform: scale(1.03);
+.inventory .card-img-top{
+    transition: 0.3s ease-out;
+}
+.inventory .card-img-top:hover{
+    transform: scale(1.07);
     
 
+}
+#service{
+    border: 2px solid transparent;
+}
+#service:hover{
+    border-bottom: 2px solid rgb(42, 103, 233);
+    box-shadow: 3px 7px 15px rgb(205, 205, 205);
+}
+span{
+    color: rgb(73, 20, 20);
 }
